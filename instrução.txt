@@ -1,0 +1,26 @@
+Ola!!!
+
+Para a instalação basta descompactar o arquivo e colocar na pasta htdocs do XAMPP
+para o banco de dados segue o sql para utilizar.
+
+create database biblioteca;
+
+use biblioteca;
+
+
+
+create table livro(
+
+    codigo int not null primary key auto_increment,
+
+    titulo varchar(60),
+
+    autor varchar(60),
+
+    anoLancamento date
+
+)
+
+Grato
+
+Joaquim Almeida
